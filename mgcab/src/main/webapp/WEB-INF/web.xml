@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xmlns="http://java.sun.com/xml/ns/javaee" 
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+                             http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
+         id="WebApp_ID" version="3.0">
+
+    
+
+    <servlet>
+        <servlet-name>adddriver</servlet-name>
+        <servlet-class>servlet.adddriver</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>adddriver</servlet-name>
+        <url-pattern>/adddriverl</url-pattern> 
+    </servlet-mapping>
+ <servlet>
+        <servlet-name>reg</servlet-name>
+        <servlet-class>servlet.reg</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>reg</servlet-name>
+        <url-pattern>/regg</url-pattern> 
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>addvehicle</servlet-name>
+        <servlet-class>servlet.addvehicle</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>addvehicle</servlet-name>
+        <url-pattern>/addvehiclee</url-pattern> 
+    </servlet-mapping>
+
+<servlet>
+        <servlet-name>driverup</servlet-name>
+        <servlet-class>servlet.driverup</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>driverup</servlet-name>
+        <url-pattern>/driverupp</url-pattern> 
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>vehicleup</servlet-name>
+        <servlet-class>servlet.vehicleup</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>vehicleup</servlet-name>
+        <url-pattern>/vehicleupp</url-pattern> 
+    </servlet-mapping>
+    
+      <servlet>
+        <servlet-name>regup</servlet-name>
+        <servlet-class>servlet.regup</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>regup</servlet-name>
+        <url-pattern>/regupp</url-pattern> 
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>tbvehicle</servlet-name>
+        <servlet-class>servlet.tbvehicle</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>tbvehicle</servlet-name>
+        <url-pattern>/tbvehiclee</url-pattern> 
+    </servlet-mapping>
+    
+        <servlet>
+        <servlet-name>tbdriver</servlet-name>
+        <servlet-class>servlet.tbdriver</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>tbdriver</servlet-name>
+        <url-pattern>/tbdriverr</url-pattern> 
+    </servlet-mapping>
+    
+       <servlet>
+        <servlet-name>delvehicle</servlet-name>
+        <servlet-class>servlet.delvehicle</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>delvehicle</servlet-name>
+        <url-pattern>/delvehiclee</url-pattern> 
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>log</servlet-name>
+        <servlet-class>servlet.log</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>log</servlet-name>
+        <url-pattern>/logg</url-pattern> 
+    </servlet-mapping>
+    
+</web-app>
